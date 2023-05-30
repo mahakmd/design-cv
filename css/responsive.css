@@ -1,0 +1,46 @@
+@media(min-width : 768px)
+{
+      .container
+      {
+        width: 750px;
+      }
+
+      .slides
+      {
+        left: 50%;
+        margin-left: 100px;
+      }
+
+}
+
+@media(min-width : 992px)
+{
+      .container
+      {
+        width: 970px;
+      }
+
+      .col-md-4,
+      .col-md-8
+      {
+        float: left;
+      }
+      .col-md-4
+      {
+        width: 33.33333%;
+      }
+      .col-md-8
+      {
+        width: 66.33333%;
+      }
+
+}
+
+@media(min-width : 1200px)
+{
+      .container
+      {
+        width: 1170px;
+      }
+}
+
